@@ -1,16 +1,18 @@
 package org.example.Model;
 
-public class Entity {
+public abstract class Entity {
     private String name;
     private int life;
     private int attack;
     private int defense;
     private int magic;
 
-    public Entity(String name, int life, int attack) {
+    public Entity(String name, int life, int attack, int magic, int defense) {
         this.name = name;
         this.life = life;
         this.attack = attack;
+        this.magic = magic;
+        this.defense = defense;
     }
 
     public String getName() {

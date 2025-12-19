@@ -4,9 +4,13 @@ import org.example.Model.Entity;
 
 public class PysicalAttack implements StrategyAttack{
     @Override
-    public int calcularDano(Entity attacker, Entity target) {
-        // Pega o valor do ataque do atacante e subitrai com a defesa do alvo
-        return attacker.getAttack() - target.getDefense();
-    }
+    public int attacker(Entity attacker, Entity target) {
+        // damage (dano) recebe o valor do atacante
+        int damage = attacker.getAttack();
+        int finalDamage = Math.max(1, damage - target.getDefense());
+        // O atacado recebe o valor do dano (damage)
+        target.setAttack(finalDamage);
 
+        return finalDamage;
+    }
 }

@@ -3,7 +3,7 @@ package org.example.Model.Strategy;
 import org.example.Model.Entity;
 
 public interface StrategyAttack {
-    int calcularDano(Entity attacker, Entity target);
+    int attacker(Entity attacker, Entity target);
 }
 
 // Interface para definir a estrategia de ataque
