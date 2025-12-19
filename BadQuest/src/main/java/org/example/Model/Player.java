@@ -17,7 +17,8 @@ public class Player extends Entity{
         this.strategyAttack = strategyAttack;
     }
 
-    public void attack(Entity target){
+    public int attack(Entity target){
         strategyAttack.attacker(this, target);
+        return 0;
     }
 }
