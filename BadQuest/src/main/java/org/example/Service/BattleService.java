@@ -1,7 +1,9 @@
-package org.example.Game;
+package org.example.Service;
 
+import org.example.Game.BattleResult;
 import org.example.Model.Enemy;
 import org.example.Model.Player;
+import org.example.Model.Strategy.PysicalAttack;
 import org.example.Model.Strategy.StrategyAttack;
 
 public class BattleService {
@@ -41,6 +43,7 @@ public class BattleService {
         playTurn = true;
         return  BattleResult.CONTINUE;
     }
+
 
 
 }

@@ -8,7 +8,7 @@ public class MagicAttack implements StrategyAttack{
     public int attacker(Entity attacker, Entity target) {
         int damage = attacker.getAttack() * 2;
         int finalDamage = Math.max(1, damage - target.getDefense());
-        target.setAttack(finalDamage);
+        target.takeDamage(finalDamage);
 
         return finalDamage;
     }

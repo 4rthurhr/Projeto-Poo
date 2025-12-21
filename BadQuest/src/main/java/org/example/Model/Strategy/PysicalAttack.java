@@ -9,7 +9,7 @@ public class PysicalAttack implements StrategyAttack{
         int damage = attacker.getAttack();
         int finalDamage = Math.max(1, damage - target.getDefense());
         // O atacado recebe o valor do dano (damage)
-        target.setAttack(finalDamage);
+        target.takeDamage(finalDamage);
 
         return finalDamage;
     }
