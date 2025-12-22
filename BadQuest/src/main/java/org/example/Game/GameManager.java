@@ -2,10 +2,12 @@ package org.example.Game;
 
 import org.example.Factory.EnemyFactory;
 import org.example.Model.Enemy;
+import org.example.Model.Map.GameMap;
 import org.example.Model.Player;
 import org.example.Service.BattleService;
 
-public class GameManager {
+public class
+GameManager {
     private GameState state = GameState.EXPLORATION;
     private Player player;
     private BattleService battleService;
@@ -15,11 +17,13 @@ public class GameManager {
     }
 
     // Função para movimento do player
-    public void movePlayer(){
+    public void movePlayer(int dx, int dy, GameMap map){
         if (state != GameState.EXPLORATION) return;
 
-        // Se encontrar inimigo, começa a batalha
-        if (foundEnemy()){
+        boolean moved = player.move(dx, dy, map);
+
+        // Se *movimentar e encontrar inimigo, começa a batalha
+        if (moved && foundEnemy()){
             startBattle();
         }
     }
