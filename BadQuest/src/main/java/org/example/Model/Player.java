@@ -10,10 +10,10 @@ public class Player extends Entity{
     private StrategyAttack strategyAttack;
     private Position position;
 
-    public Player(String name) {
-        super(name,250, 15,5,10);
-        this.strategyAttack = new PysicalAttack(); //Ataque "Padrão"
-        this.position = new Position(0,0); // posição "padrão" também
+    public Player(String name, int life, int attack, int magic, int defense, StrategyAttack strategy) {
+        super(name, life, attack, magic, defense);
+        this.strategyAttack = strategy;
+        this.position = new Position(0,0);
     }
 
     public Position getPosition() {

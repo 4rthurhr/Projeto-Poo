@@ -16,7 +16,7 @@ public class BattleService {
         this.enemy = enemy;
     }
 
-    public BattleResult PlayerAttack(StrategyAttack strategyAttack){
+    public BattleResult playerAttack(StrategyAttack strategyAttack){
 
         if (!playTurn) return BattleResult.NOT_PLAYER_TURN;
 
@@ -31,7 +31,7 @@ public class BattleService {
         return BattleResult.CONTINUE;
     }
 
-    public BattleResult EnemyTurn(){
+    public BattleResult enemyTurn(){
         if (playTurn) return BattleResult.NOT_ENEMY_TURN;
 
         enemy.attack(player);

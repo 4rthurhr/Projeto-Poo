@@ -15,6 +15,7 @@ public abstract class Entity {
         this.defense = defense;
     }
 
+
     public String getName() {
         return name;
     }

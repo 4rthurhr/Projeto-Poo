@@ -2,7 +2,7 @@ package org.example.Model.Strategy;
 
 import org.example.Model.Entity;
 
-public class MagicAttack implements StrategyAttack{
+public class FireAttack implements StrategyAttack{
 
     @Override
     public int attacker(Entity attacker, Entity target) {

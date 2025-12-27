@@ -4,7 +4,10 @@ import org.example.Factory.EnemyFactory;
 import org.example.Model.Enemy;
 import org.example.Model.Map.GameMap;
 import org.example.Model.Player;
+import org.example.Model.Strategy.PysicalAttack;
 import org.example.Service.BattleService;
+
+import java.util.Scanner;
 
 public class
 GameManager {
@@ -13,7 +16,7 @@ GameManager {
     private BattleService battleService;
 
     public GameManager(Player player) {
-        this.player = player    ;
+        this.player = player ;
     }
 
     // Função para movimento do player
