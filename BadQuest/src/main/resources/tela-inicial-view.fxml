@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.Controller.TelaInicialController"
+            prefWidth="800"
+            prefHeight="600"
+            stylesheets="@/css/telaInicial.css"
+
+>
+
+    <!-- Conteúdo central -->
+    <VBox alignment="CENTER"
+          spacing="25"
+          AnchorPane.topAnchor="0.0"
+          AnchorPane.bottomAnchor="0.0"
+          AnchorPane.leftAnchor="0.0"
+          AnchorPane.rightAnchor="0.0">
+
+        <Text text="BAD QUEST"
+              style="-fx-font-size: 48px; -fx-fill: white; -fx-font-weight: bold;" />
+
+        <Button fx:id="btStart" text="Iniciar Jogo"
+                prefWidth="250"
+                style="-fx-font-size: 18px;" />
+
+        <Button fx:id="btSair" text="Sair"
+                prefWidth="250"
+                style="-fx-font-size: 18px;" />
+
+    </VBox>
+
+</AnchorPane>
