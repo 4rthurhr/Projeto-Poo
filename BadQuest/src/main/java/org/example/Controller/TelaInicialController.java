@@ -1,8 +1,13 @@
 package org.example.Controller;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class TelaInicialController {
 
@@ -13,11 +18,21 @@ public class TelaInicialController {
 
     public void initialize(){
         btStart.setOnAction(e -> {
-            System.out.println("Iniciando o Jogo");
-            //Stage stage = (Stage) btStart.getScene().getWindow();
-            //Tela de escolher personagem aqui
-            // GameScene game = new GameScene(stage)
-            //stage.setScene(game.getScene())
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/escolha-personagem-view.fxml"));
+            Parent root = null;
+            try {
+                root = loader.load();
+
+                EscolherPersonagemController controller = loader.getController();
+                Stage stage = (Stage) btStart.getScene().getWindow();
+                controller.setStage(stage);
+
+                stage.setScene(new Scene(root));
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+
+
         });
 
         btSair.setOnAction(e -> {

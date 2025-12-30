@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4812795-0448-441d-913e-bb9e9563eed7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/TelaInicialController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/css/telaInicial.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/img/tela-inicial.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/tela-inicial-view.fxml" afterDir="false" />
+    <list default="true" id="b4812795-0448-441d-913e-bb9e9563eed7" name="Changes" comment="Implementado Tela Inicial(Controller, Main e Fxml) e adicionado imagem de fundo da tela incial com css">
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/EscolherPersonagemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro/Idle_Down-Sheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/View/escolha-personagem-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/TelaInicialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/TelaInicialController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/css/telaInicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Css/telaInicial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/img/tela-inicial.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/tela-inicial.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/tela-inicial-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/View/tela-inicial-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -32,9 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="37UwW1SDH9m52dB5f8Klb5e8GZi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,7 +54,7 @@
     "git-widget-placeholder": "develop",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/arthurhr/ADS/Projeto-Poo/BadQuest/src/main/resources/img",
+    "last_opened_file_path": "/home/arthurhr/ADS/Projeto-Poo/BadQuest/src/main/resources/Img/sprites/guerreiro",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41379312",
@@ -65,7 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro" />
       <recent name="$PROJECT_DIR$/BadQuest/src/main/resources/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BadQuest/src/main/resources/View" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,6 +91,19 @@
       <option name="presentableId" value="Default" />
       <updated>1766970987376</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementado Tela Inicial(Controller, Main e Fxml) e adicionado imagem de fundo da tela incial com css">
+      <option name="closed" value="true" />
+      <created>1766981453756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766981453756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementado Tela Inicial(Controller, Main e Fxml) e adicionado imagem de fundo da tela incial com css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado Tela Inicial(Controller, Main e Fxml) e adicionado imagem de fundo da tela incial com css" />
   </component>
 </project>

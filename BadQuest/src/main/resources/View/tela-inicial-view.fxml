@@ -10,7 +10,7 @@
             fx:controller="org.example.Controller.TelaInicialController"
             prefWidth="800"
             prefHeight="600"
-            stylesheets="@/css/telaInicial.css"
+            stylesheets="@/Css/telaInicial.css"
 
 >
 

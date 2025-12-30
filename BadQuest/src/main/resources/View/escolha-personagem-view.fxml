@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.Controller.EscolherPersonagemController"
+            prefWidth="800"
+            prefHeight="600"
+            style="-fx-background-color: #1e1e1e;">
+
+    <VBox spacing="30"
+          alignment="CENTER"
+          AnchorPane.topAnchor="0"
+          AnchorPane.bottomAnchor="0"
+          AnchorPane.leftAnchor="0"
+          AnchorPane.rightAnchor="0">
+
+        <!-- Título -->
+        <Label text="Selecione seu Personagem"
+               style="-fx-text-fill: white;
+                      -fx-font-size: 28px;
+                      -fx-font-weight: bold;" />
+
+
+        <HBox spacing="40" alignment="CENTER">
+
+
+            <VBox spacing="10" alignment="CENTER">
+                <ImageView fitWidth="180" fitHeight="120" preserveRatio="true">
+                    <image>
+                        <Image url="/Img/sprites/guerreiro/Idle_Down-Sheet.png"/>
+                    </image>
+                </ImageView>
+
+                <Button text="Guerreiro"
+                        fx:id="btnGuerreiro"
+
+                        style="-fx-font-size: 14px;" />
+            </VBox>
+
+
+        </HBox>
+
+
+        <Button text="Confirmar"
+                fx:id="btnConfirmar"
+
+                style="-fx-font-size: 16px;
+                       -fx-padding: 10 30;" />
+
+    </VBox>
+
+</AnchorPane>
