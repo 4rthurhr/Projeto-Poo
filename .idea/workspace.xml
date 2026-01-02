@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4812795-0448-441d-913e-bb9e9563eed7" name="Changes" comment="Implementado Tela Inicial(Controller, Main e Fxml) e adicionado imagem de fundo da tela incial com css">
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/EscolherPersonagemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro/Idle_Down-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/View/escolha-personagem-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/TelaInicialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/TelaInicialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/css/telaInicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Css/telaInicial.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/img/tela-inicial.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/tela-inicial.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/tela-inicial-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/View/tela-inicial-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Game/Input/InputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Javafx.executor": "Run",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/arthurhr/ADS/Projeto-Poo/BadQuest/src/main/resources/Img/sprites/guerreiro",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41379312",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Javafx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/arthurhr/ADS/Projeto-Poo/BadQuest/src/main/resources/Img/sprites/guerreiro&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41379312&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro" />
