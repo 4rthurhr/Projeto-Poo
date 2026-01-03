@@ -3,6 +3,8 @@ package org.example.Service;
 import org.example.Game.BattleResult;
 import org.example.Model.Enemy;
 import org.example.Model.Player;
+import org.example.Model.Strategy.EnemyAIBasic;
+import org.example.Model.Strategy.EnemyAction;
 import org.example.Model.Strategy.PysicalAttack;
 import org.example.Model.Strategy.StrategyAttack;
 
@@ -34,10 +36,17 @@ public class BattleService {
     public BattleResult enemyTurn(){
         if (playTurn) return BattleResult.NOT_ENEMY_TURN;
 
-        enemy.attack(player);
+        EnemyAIBasic ai = new EnemyAIBasic();
+        EnemyAction action = ai.decide(enemy, player);
 
-        if (!player.isLive()){
-            return BattleResult.ENEMY_WIN;
+        if (action == EnemyAction.ATTACK){
+            enemy.attack(player);
+
+            if ( !player.isLive()){
+                return BattleResult.ENEMY_WIN;
+            }
+        } else if (action == EnemyAction.FLEE){
+            return  BattleResult.ENEMY_FLEE;
         }
 
         playTurn = true;

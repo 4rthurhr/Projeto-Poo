@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4812795-0448-441d-913e-bb9e9563eed7" name="Changes" comment="Implementado Tela Inicial(Controller, Main e Fxml) e adicionado imagem de fundo da tela incial com css">
-      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Game/Input/InputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Model/Strategy/EnemyAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Model/Strategy/EnemyAIBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Model/Strategy/EnemyAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro/boy_guard_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro/guerreiro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro/mago.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/EscolherPersonagemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Controller/EscolherPersonagemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Game/BattleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Game/BattleResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Model/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Model/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Service/BattleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/java/org/example/Service/BattleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/Img/sprites/guerreiro/Idle_Down-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BadQuest/src/main/resources/View/escolha-personagem-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/BadQuest/src/main/resources/View/escolha-personagem-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

@@ -15,4 +15,5 @@ public class Enemy extends Entity{
         return strategyAttack.attacker(this, target);
     }
 
+
 }
