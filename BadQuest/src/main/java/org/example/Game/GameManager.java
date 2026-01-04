@@ -9,15 +9,33 @@ import org.example.Service.BattleService;
 
 import java.util.Scanner;
 
-public class
-GameManager {
+public class GameManager {
     private GameState state = GameState.EXPLORATION;
     private Player player;
     private BattleService battleService;
+    private PlayerClass playerClass;
+    private static GameManager instance;
 
-    public GameManager(Player player) {
-        this.player = player ;
+    public GameManager() {
+
     }
+
+    public static GameManager getInstace(){
+        if (instance == null){
+            instance= new GameManager();
+        }
+
+        return instance;
+    }
+
+    public void setPlayer(Player player){
+        this.player = player;
+    }
+
+    public Player getPlayer(){
+        return player;
+    }
+
 
     // Função para movimento do player
     public void movePlayer(int dx, int dy, GameMap map){
@@ -43,7 +61,7 @@ GameManager {
         state = GameState.BATTLE;
     }
 
-    private void endBattle(boolean playWon){
+    public void endBattle(boolean playWon){
         // Se play ganhou state muda caso contrario perde o jogo
         if (playWon){
             state = GameState.EXPLORATION;
@@ -58,6 +76,13 @@ GameManager {
 
     public GameState getState() {
         return state;
+    }
+
+
+    //Teste Tela de batalha
+    public void startB(Enemy e){
+        this.battleService = new BattleService(player, e);
+        this.state = GameState.BATTLE;
     }
 }
 

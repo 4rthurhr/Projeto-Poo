@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.Controller.BattleController"
+            prefHeight="800.0" prefWidth="600.0">
+    <Label text="Tela Batalha" layoutX="300" layoutY="250" style="-fx-text-fill: white; -fx-font-size: 24px"/>
+
+    <!-- inimigo -->
+    <VBox alignment="TOP_RIGHT" AnchorPane.topAnchor="40" AnchorPane.rightAnchor="40">
+
+        <Label fx:id="nameEnemy"/>
+        <Label fx:id="lifeEnemy"/>
+
+    </VBox>
+
+    <VBox alignment="BOTTOM_LEFT" AnchorPane.bottomAnchor="120" AnchorPane.leftAnchor="40">
+
+        <Label fx:id="namePlayer"></Label>
+        <Label fx:id="lifePlayer"></Label>
+
+    </VBox>
+
+    <HBox spacing="20" alignment="CENTER" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+        <Button text="Atacar" />
+        <Button text="Fugir" />
+    </HBox>
+
+</AnchorPane>

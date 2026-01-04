@@ -54,5 +54,11 @@ public class BattleService {
     }
 
 
+    public Player getPlayer() {
+        return player;
+    }
 
+    public Enemy getEnemy() {
+        return enemy;
+    }
 }

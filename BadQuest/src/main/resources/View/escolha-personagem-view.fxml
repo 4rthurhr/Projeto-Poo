@@ -19,13 +19,13 @@
                 <ImageView fx:id="guerreiroImg" fitHeight="128" fitWidth="128" preserveRatio="true" smooth="false" />
 
 
-                <Button fx:id="btnGuerreiro" style="-fx-font-size: 14px;" text="Guerreiro" />
+                <Button onAction="#escolherGuerreiro" style="-fx-font-size: 14px;" text="Guerreiro" />
             </VBox>
 
             <VBox>
                 <ImageView fx:id="magoImg" fitHeight="128" fitWidth="128" preserveRatio="true" smooth="false" />
 
-                <Button fx:id="btnMago" alignment="CENTER" style="-fx-font-size: 14px;" text="Mago" />
+                <Button onAction="#escolherMago" alignment="CENTER" style="-fx-font-size: 14px;" text="Mago" />
                 
             </VBox>
 
@@ -33,7 +33,7 @@
         </HBox>
 
 
-        <Button fx:id="btnConfirmar" style="-fx-font-size: 16px;                        -fx-padding: 10 30;" text="Confirmar" />
+        <Button fx:id="btCon" onAction="#confirmarEscolha" style="-fx-font-size: 16px;  -fx-padding: 10 30;" text="Confirmar" />
 
     </VBox>
 
